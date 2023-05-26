@@ -1,0 +1,417 @@
+/* * {
+    outline: 1px solid tomato;
+} */
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+/* <상단 로고 메뉴바> */
+.header {
+    background: #000;
+}
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.header .inner img {
+    width: 90px;
+    cursor: pointer;
+}
+
+.header .gnb {
+    margin: 0 0 0 auto;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header i {
+    margin: 0 0 0 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+/* <상단 메인배너 이미지> */
+.main_visual .itm {
+    height: 900px;
+}
+
+.main_visual .itm01 {
+    background: url(../images_JEEP/main01_2018-Jeep-Compass-VLP-Gallery-Exterior-02.jpg.img.2880.jpg) no-repeat center center/cover;
+}
+
+.main_visual .itm02 {
+    background: url(../images_JEEP/main02_Hero_Non\ LED.jpg.img.1440.jpg) no-repeat center center/cover;
+}
+
+.main_visual .itm03 {
+    background: url(../images_JEEP/main03_2019-Jeep-Wrangler-Gallery-Capability-Rubicon-4x4-System-Sand.jpg.img.2880.jpg) no-repeat center center/cover;
+}
+
+.main_visual .itm04 {
+    background: url(../images_JEEP/main04_23MYJT_CAPABILITY01.jpg.img.2880.jpg) no-repeat center center/cover;
+}
+
+
+
+
+/* <상단 메인배너 텍스트 - 전체 기본설정> */
+.main_visual .slogan {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    padding: 0 15px;
+}
+
+.main_visual .itm {
+    position: relative;
+}
+
+.main_visual h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 0 0 2px #333;
+}
+
+.main_visual p {
+    margin: 10px auto;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 0 0 2px #333;
+    line-height: 19px;
+}
+
+
+
+
+/* <상단 메인배너 텍스트 - 이미지별 텍스트 설정> */
+.itm01 {
+    text-align: right;
+}
+
+.itm03 {
+    text-align: right;
+}
+
+
+
+
+/* <상단 메인배너 다음,이전 화살표 아이콘> */
+.main_visual .arrows {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1400px;
+    width: 100%;
+    z-index: 999;
+}
+
+.main_visual .arrows i {
+    position: absolute;
+    top: 50%;
+
+    padding: 10px;
+    color: #fff;
+    /* background: #333; */
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.main_visual .arrows .left {
+    top: 50%;
+    left: 15px;
+    cursor: pointer;
+    /* ->커서 올렸을때 버튼 커서로 변경 */
+}
+
+.main_visual .arrows .right {
+    top: 50%;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+
+
+/* <주행성능> */
+.impormation {
+    background: #f9f9f9;
+    padding: 0 0 30px 0;
+}
+
+
+.impormation h2 {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 140px 0 35px 0;
+    text-align: center;
+    color: #273303;
+}
+
+.imp_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.impormation .imp_inner img {
+    height: 450px;
+}
+
+.imp {
+    display: flex;
+    margin: 0 auto 20px auto;
+    gap: 30px;
+}
+
+.imp>* {
+    flex: 1;
+}
+
+.imp_sec h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 100px 0 40px 0;
+    color: #273303;
+}
+
+.imp_sec p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+    line-height: 20px;
+    word-break: keep-all;
+}
+
+.imp_sec02 {
+    text-align: right;
+}
+
+.imp_sec03 {
+    margin: 40px 0 0 0;
+}
+
+.imp_sec a {
+    font-size: 13px;
+    text-align: center;
+    /* background: #333; */
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+    align-self: center;
+    padding: 5px 10px;
+    align-items: 50%;
+}
+
+.imp_sec a:hover {
+    background: #2c3b02;
+    color: #fff;
+}
+
+
+
+
+/* <차량 슬라이드 제목> */
+.product h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 120px 0 20px 0;
+    text-align: center;
+    color: #273303;
+}
+
+.product p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+
+
+
+/* <차량 슬라이드 이미지 텍 배열> */
+.product .inner {
+    padding: 0 -20px;
+}
+
+.product img {
+    max-width: 1200px;
+    width: 100%;
+    /* margin: auto 10px; */
+}
+
+.product .cap {
+    display: flex;
+    flex-direction: column;
+}
+
+.product h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.product a {
+    font-size: 12px;
+    text-align: center;
+    /* background: #333; */
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+    align-self: center;
+    padding: 4px 9px;
+    margin: -3px 0 100px 0;
+    align-items: 50%;
+}
+
+.product a:hover {
+    background: #2c3b02;
+    color: #fff;
+}
+
+
+
+/* <차량 슬라이드 다음,이전 화살표 아이콘> */
+.product {
+    position: relative;
+}
+
+.product .arrows {
+    max-width: 1400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.product .arrows i {
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.product .arrows .left {
+    top: 50%;
+    left: 15px;
+    cursor: pointer;
+}
+
+.product .arrows .right {
+    top: 50%;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+
+/* <bottom의 WHY WE TEST> */
+.bottom {
+    background: #f9f9f9;
+    padding: 5px 0 0 0;
+}
+
+.bottom h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+    text-align: center;
+    color: #273303;
+}
+
+.bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    text-align: center;
+    line-height: 20px;
+}
+
+.bot_last {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.bot_last img {
+    height: 329px;
+
+}
+
+.bot_last h3 {
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.bot_last p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 0 70px 0;
+    /* word-break: keep-all;
+    -> 단어 맞춰 줄바꿈 되기 */
+}
+
+
+
+
+/* <footer> */
+.footer {
+    padding: 30px 0;
+    background: #000;
+    color: #fff;
+    font-size: 13px;
+    /* font-weight: 300; */
+}
+
+.footer .foot_inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer .icn {
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
+    cursor: pointer;
+}
